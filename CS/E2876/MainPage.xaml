@@ -1,0 +1,17 @@
+﻿<UserControl
+    x:Class="E2876.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing"
+    xmlns:local="clr-namespace:E2876">
+    
+    <dxp:DocumentPreview Name="preview" AutoCreateDocument="True">
+        <dxp:DocumentPreview.Model>
+            <dxp:ReportPreviewModel ReportName="E2876.Web.SampleReport, E2876.Web">
+                <dxp:ReportPreviewModel.ServiceClientFactory>
+                    <local:CustomServiceClientFactory EndpointConfigurationName="endpointConfiguration" />
+                </dxp:ReportPreviewModel.ServiceClientFactory>
+            </dxp:ReportPreviewModel>
+        </dxp:DocumentPreview.Model>
+    </dxp:DocumentPreview>
+</UserControl>
