@@ -1,0 +1,20 @@
+﻿<configuration>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="basicBindingConfiguration"
+                 closeTimeout="00:33:00"
+                 openTimeout="00:33:00"
+                 sendTimeout="00:33:00"
+                 receiveTimeout="00:33:00"/>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint name="endpointConfiguration"
+                address="../DemoReportService.svc"
+                binding="basicHttpBinding"
+                bindingConfiguration="basicBindingConfiguration"
+                contract="DevExpress.Xpf.Printing.ServiceModel.IAsyncReportService" />
+    </client>
+  </system.serviceModel>
+</configuration>
