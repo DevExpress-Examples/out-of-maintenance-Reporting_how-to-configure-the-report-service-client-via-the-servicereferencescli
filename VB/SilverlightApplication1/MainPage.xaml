@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="SilverlightApplication1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing"
+    xmlns:local="clr-namespace:SilverlightApplication1">
+    
+    <!--#region documentPreview--> 
+    <dxp:DocumentPreview AutoCreateDocument="True">
+        <dxp:DocumentPreview.Model>
+            <dxp:ReportPreviewModel ReportTypeName="XtraReport1"
+                                    ServiceUri=".">
+                <dxp:ReportPreviewModel.ServiceClientFactory>
+                    <local:MyServiceClientFactory EndpointConfigurationName="endpointConfiguration" />
+                </dxp:ReportPreviewModel.ServiceClientFactory>
+            </dxp:ReportPreviewModel>
+        </dxp:DocumentPreview.Model>
+    </dxp:DocumentPreview>
+    <!--#endregion documentPreview-->
+</UserControl>
