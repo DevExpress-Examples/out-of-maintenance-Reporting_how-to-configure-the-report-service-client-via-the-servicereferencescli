@@ -3,7 +3,7 @@
 
 * [ReportService1.svc.cs](./CS/E2876.Web/ReportService1.svc.cs) (VB: [ReportService1.svc.vb](./VB/E2876.Web/ReportService1.svc.vb))
 * [CustomServiceClientFactory.cs](./CS/E2876/CustomServiceClientFactory.cs) (VB: [CustomServiceClientFactory.vb](./VB/E2876/CustomServiceClientFactory.vb))
-* [MainPage.xaml](./CS/E2876/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/E2876/MainPage.xaml.vb))
+* [MainPage.xaml](./CS/E2876/MainPage.xaml) (VB: [MainPage.xaml](./VB/E2876/MainPage.xaml))
 * [MainPage.xaml.cs](./CS/E2876/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/E2876/MainPage.xaml.vb))
 * **[ServiceReferences.ClientConfig](./CS/E2876/ServiceReferences.ClientConfig) (VB: [ServiceReferences.ClientConfig](./VB/E2876/ServiceReferences.ClientConfig))**
 <!-- default file list end -->
